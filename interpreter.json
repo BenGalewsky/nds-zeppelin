@@ -202,7 +202,7 @@
         "zeppelin.livy.url": "http://localhost:8998",
         "livy.spark.dynamicAllocation.minExecutors": "",
         "livy.spark.driver.cores": "",
-        "livy.spark.jars.packages": "",
+        "livy.spark.jars.packages": "org.mongodb.spark:mongo-spark-connector_2.10:2.1.0",
         "livy.spark.dynamicAllocation.enabled": "",
         "livy.spark.executor.instances": "",
         "livy.spark.dynamicAllocation.cachedExecutorIdleTimeout": "",
@@ -270,7 +270,7 @@
         "isUserImpersonate": false
       }
     }
-  },  
+  },
   "interpreterBindings": {},
   "interpreterRepositories": [
     {
